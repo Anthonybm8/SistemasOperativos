@@ -48,15 +48,15 @@
             </div>
 
             <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="Default.aspx" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
-                    <li><a href="About.aspx"><i class="bi bi-person navicon"></i> About</a></li>
-                    <li><a href="#"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-                    <li><a href="#"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-                    <li><a href="#"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-                    <li><a href="Contact.aspx"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-                </ul>
-            </nav>
+    <ul>
+        <li><a href="sistemasOs.aspx"><i class="bi bi-house navicon"></i> Sistemas Operativos</a></li>
+        <li><a href="Equipos.aspx"><i class="bi bi-person navicon"></i> Equipos</a></li>
+        <li><a href="#"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="Contact.aspx"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+    </ul>
+</nav>
         </header>
 
         <!-- Aquí se cargará el contenido de cada página .aspx -->
