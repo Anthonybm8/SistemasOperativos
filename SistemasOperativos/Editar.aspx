@@ -13,7 +13,7 @@
         <asp:HiddenField ID="hfId" runat="server" />
 
         <div class="form-group">
-            <asp:Label ID="lblNombre" runat="server" Text="Nombre:" AssociatedControlID="txtNombre" CssClass="form-label" />
+            <asp:Label ID="lblNombre" runat="server" Text="Nombres:" AssociatedControlID="txtNombre" CssClass="form-label" />
             <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control" />
             <asp:RequiredFieldValidator ID="rfvNombre" runat="server" ControlToValidate="txtNombre"
                 ErrorMessage="El nombre es obligatorio." ForeColor="red" Display="Dynamic" />
