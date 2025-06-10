@@ -1,4 +1,4 @@
-﻿<<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SistemasOperativos.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SistemasOperativos.SiteMaster" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,8 +8,8 @@
     <title><%: Page.Title %> - iPortfolio</title>
 
     <!-- Favicons -->
-    <link href="<%= ResolveUrl("~/assets/img/favicon.png") %>" rel="icon" />
-    <link href="<%= ResolveUrl("~/assets/img/apple-touch-icon.png") %>" rel="apple-touch-icon" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/img/favicon.png") %>" rel="icon" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/img/apple-touch-icon.png") %>" rel="apple-touch-icon" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -17,14 +17,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link href="<%= ResolveUrl("~/assets/vendor/bootstrap/css/bootstrap.min.css") %>" rel="stylesheet" />
-    <link href="<%= ResolveUrl("~/assets/vendor/bootstrap-icons/bootstrap-icons.css") %>" rel="stylesheet" />
-    <link href="<%= ResolveUrl("~/assets/vendor/aos/aos.css") %>" rel="stylesheet" />
-    <link href="<%= ResolveUrl("~/assets/vendor/glightbox/css/glightbox.min.css") %>" rel="stylesheet" />
-    <link href="<%= ResolveUrl("~/assets/vendor/swiper/swiper-bundle.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/bootstrap/css/bootstrap.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/bootstrap-icons/bootstrap-icons.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/aos/aos.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/glightbox/css/glightbox.min.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/swiper/swiper-bundle.min.css") %>" rel="stylesheet" />
 
     <!-- Main CSS File -->
-    <link href="<%= ResolveUrl("~/assets/css/main.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/css/main.css") %>" rel="stylesheet" />
 </head>
 <body class="index-page">
     <form id="form1" runat="server">
@@ -32,7 +32,7 @@
             <i class="header-toggle d-xl-none bi bi-list"></i>
 
             <div class="profile-img">
-                <img src="<%= ResolveUrl("~/assets/img/my-profile-img.jpg") %>" alt="Profile" class="img-fluid rounded-circle" />
+                <img src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/img/my-profile-img.jpg") %>" alt="Profile" class="img-fluid rounded-circle" />
             </div>
 
             <a href="Default.aspx" class="logo d-flex align-items-center justify-content-center">
@@ -64,10 +64,10 @@
     </form>
 
     <!-- JS Files -->
-    <script src="<%= ResolveUrl("~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js") %>"></script>
-    <script src="<%= ResolveUrl("~/assets/vendor/aos/aos.js") %>"></script>
-    <script src="<%= ResolveUrl("~/assets/vendor/glightbox/js/glightbox.min.js") %>"></script>
-    <script src="<%= ResolveUrl("~/assets/vendor/swiper/swiper-bundle.min.js") %>"></script>
-    <script src="<%= ResolveUrl("~/assets/js/main.js") %>"></script>
+    <script src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/bootstrap/js/bootstrap.bundle.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/aos/aos.js") %>"></script>
+    <script src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/glightbox/js/glightbox.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/vendor/swiper/swiper-bundle.min.js") %>"></script>
+    <script src="<%= ResolveUrl("~/Content/plantillas/iPortfolio-1.0.0/assets/js/main.js") %>"></script>
 </body>
 </html>

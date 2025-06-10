@@ -1,13 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="sistemasOs.aspx.cs" Inherits="SistemasOperativos.sistemasOs" %>
+﻿<%@ Page Title="Sistemas Operativos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="sistemasOs.aspx.cs" Inherits="SistemasOperativos.sistemasOs" %>
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Sistemas Operativos</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <main id="main" class="main">
         <div class="container mt-4">
             <h1 class="mb-4">Lista de Sistemas Operativos</h1>
 
@@ -24,6 +18,7 @@
                     <asp:BoundField DataField="version" HeaderText="Versión" />
                     <asp:BoundField DataField="arquitectura" HeaderText="Arquitectura" />
                     <asp:BoundField DataField="fabricante" HeaderText="Fabricante" />
+
                     <asp:TemplateField HeaderText="Manual">
                         <ItemTemplate>
                             <asp:HyperLink ID="hlManual" runat="server" NavigateUrl='<%# Eval("manual") %>' Text="Ver Manual" Target="_blank" CssClass="btn btn-sm btn-info" />
@@ -41,9 +36,5 @@
                 </Columns>
             </asp:GridView>
         </div>
-    </form>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    </main>
+</asp:Content>
